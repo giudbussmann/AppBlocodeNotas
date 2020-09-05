@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bloco de notas"
+        android:textColor="#1c1c1c"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textSize="28sp"/>
+
+    <EditText
+        android:id="@+id/txtNomeArquivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Digite o nome do arquivo para abrir"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:textColor="#1c1c1c"/>
+
+    <EditText
+        android:id="@+id/contextBox"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#1c1c1c"
+        android:fontFamily="casual"
+        android:scrollbars="vertical"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="limpar"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#1c1c1c"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="#ffaa00"/>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="salvar"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#1c1c1c"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="#ffc300"/>
+
+    <Button
+        android:id="@+id/btRecuperar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="recuperar"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#1c1c1c"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="#ffdd00"/>
+
+</LinearLayout>
+
+
+
